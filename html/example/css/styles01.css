@@ -10,3 +10,38 @@ h1.c {background-image : url("../images/klematis_big.jpg");
 h1.d {background-color:#ff634750;}
 h1.e {background-color:#ff6347;}
 h1.f {background-color:#ff6347;}
+
+h2{
+    margin : 20px 0 0 50px;
+    border : solid;
+}
+
+div{
+    background-color : lightgray;
+    width : 300px;
+    border : 25px solid green;
+    padding : 25px;
+    margin : 25px;
+}
+p.one{
+    border-style : solid;
+    border-width : 5px;
+}
+p.four{
+    border-bottom : 6px dotted red;
+    border-width : thick;
+}
+p.five{
+    border : 2px double red;
+    border-radius : 10px;
+}
+p.seven{
+    border : 5px solid red;
+    border-width : 2px 10px 4px 20px;
+}
+
+p.ten{
+    margin: 30px;
+    margin-bottom: 6px solid blue;
+    border-style: dashed;   
+}

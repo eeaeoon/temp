@@ -1,3 +1,12 @@
-h1.a {background-color:rgb(255, 99, 71);}
-h1.b {background-color:#ff6347;}
-h1.c {background-color:hsl(9, 100%, 64%);}
+body {background-image : url("../images/img_tree_tranparent.png");
+    background-repeat : no-repeat;
+    background-position : right top;}
+
+h1.a {background-color:dodgerblue;}
+h1.b {background-color:mediumseagreen;}
+h1.c {background-image : url("../images/klematis_big.jpg");
+      border : 2px solid violet;
+      background-repeat : no-repeat;}
+h1.d {background-color:#ff634750;}
+h1.e {background-color:#ff6347;}
+h1.f {background-color:#ff6347;}

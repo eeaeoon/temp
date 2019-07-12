@@ -1,0 +1,100 @@
+.header{
+    color : green;
+}
+.topnav { overflow: hidden;
+    background-color: white;
+    padding: 14px;  
+    display: inline;
+    
+}
+
+.topnav a{
+    background-color: #333;
+    color:white;
+    text-align:center;
+    padding:3px 30px;
+    text-decoration: none;
+    margin : 0 5px 0 5px;
+    font-weight: bold;
+    width: 20%;
+}
+
+.topnav a:hover{
+    background-color: green;
+    color:black;
+}
+
+select a:link { 
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+     color: black; 
+     text-decoration: none;
+    }
+a:hover { 
+    color: blue; 
+    text-decoration: none;
+}
+a:active {
+    color: red;
+}
+
+
+table{
+    position : relative;
+    top : 1px;
+    border-collapse : collapse;
+    width:100%;
+    
+}
+
+th, thd{
+    text-align : left;
+    padding : 8px;
+    vertical-align : middle;
+}
+
+tr:nth-child(even){
+    background-color : #f2f2f2;
+    height: 35px;
+}
+
+tr:nth-child(odd){
+    background-color : white;
+    height: 35px;
+}
+
+th{
+    background-color: #4caf50;
+    color:white;
+    
+}
+
+tr:hover{
+    background-color: yellow;
+}
+
+.side{
+    position : relative;
+    width:100%;
+    background-color: rgb(230, 230, 230);
+    height: 150px;
+    border : 1px solid black;
+    padding : 0 15px 0 15px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color : white;
+    padding : 20px 0 0 0;
+    text-align : center;
+    font-size: small;
+}
+
+p{
+    font-weight: bold;
+}

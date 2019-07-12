@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(252, 67, 67);
+}
+
+.header{
+    color : white;
+}
+
+.container{
+    position: relative;
+    background-color: white;
+    padding : 20px 10px 0 10px;
+    height: 600px;
+}
+
+.subj{
+    color: red;
+}
+
+p{
+    font-size: small;
+}
+div.main{
+    position: absolute;
+    top: 130px;
+    width: 730px;
+    left: 20px;
+}
+
+div.list{
+    position: absolute;
+    top : 150px;
+    left : 780px;
+    width: 300px;
+    height: 300px;    
+}
+
+li{
+    list-style-type: none;
+    background-color: #ececec;
+    text-decoration:none;
+    font-weight: bold;
+}
+.topnav { 
+    overflow: hidden;
+    background-color: white;
+    display: contents;
+}
+
+.topnav a{
+    background-color: red;
+    color:red;
+    text-align:center;
+    padding:5px 20px;
+    text-decoration: none;
+    margin : 0 0 5px 0;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 30px;
+    display: block;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color:red;
+}
+
+table{
+    position : absolute;
+    top: 330px;
+    border-collapse : collapse;
+    width:100%;
+
+}
+
+th, thd{
+    text-align : left;
+    padding : 8px;
+    vertical-align : middle;
+}
+
+tr:nth-child(even){
+    background-color : #f2f2f2;
+    height: 35px;
+}
+
+tr:nth-child(odd){
+    background-color : white;
+    height: 35px;
+}
+
+th{
+    background-color: #4caf50;
+    color:white;
+}
+
+tr:hover{
+    background-color: yellow;
+}

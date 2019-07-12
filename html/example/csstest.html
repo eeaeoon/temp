@@ -2,15 +2,34 @@
 <html>
     <head>
         <style>
-           p {color : red;}
-           .para {color : greenyellow;}
-           #para2 {color : skyblue;}
-
+            
+            .img-container{
+                float:left;
+                width: 33.33%;
+                padding : 5px;
+            }
+            .clearfix::after{
+                clear :both;
+                display:table;
+            }
         </style>
     </head>
+
     <body>
-        <p>This is a paragraph 01.</p>
-        <p class="para">This is a paragraph 02.</p>        
-        <p id="para2">This is a paragraph 03.</p>
+        <div class="clearfix">
+            <div class="img-container">
+                <img src="images/plain.jpeg" alt="Fjords" style="width:100%">
+            </div>
+            <div class="img-container">
+                <img src="images/image_size.png" alt="image_size" style="width:100%">
+            </div>
+            <div class="img-container">
+                <img src="images/gadgets.jpeg" alt="gadgets" style="width:100%">
+            </div>
+            <div class="img-container">
+                <img src="images/gadgets.jpeg" alt="gadgets" style="width:100%">
+            </div>
+        </div>
     </body>
+
 </html>

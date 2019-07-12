@@ -1,46 +1,157 @@
-body {background-image : url("../images/img_tree_tranparent.png");
-    background-repeat : no-repeat;
-    background-position : right top;}
-
-h1.a {background-color:dodgerblue;}
-h1.b {background-color:mediumseagreen;}
-h1.c {background-image : url("../images/klematis_big.jpg");
-      border : 2px solid violet;
-      background-repeat : no-repeat;}
-h1.d {background-color:#ff634750;}
-h1.e {background-color:#ff6347;}
-h1.f {background-color:#ff6347;}
-
-h2{
-    margin : 20px 0 0 50px;
-    border : solid;
+div.head{
+    width : 100%;
+    background-color: green;
+    border-radius : 6px;
 }
 
-div.ba{
-    width:320px;
-    padding : 10px;
-    border : 5px solid gray;
-    margin : 0;
-}
-p.one{
-    border-style : solid;
-    border-width : 5px;
-}
-p.four{
-    border-bottom : 6px dotted red;
-    border-width : thick;
-}
-p.five{
-    border : 2px double red;
-    border-radius : 10px;
-}
-p.seven{
-    border : 5px solid red;
-    border-width : 2px 10px 4px 20px;
+h1.head{
+    color : white;
+    border : 0;
+    margin : 0 0 0 15px;
+    padding : 0;
 }
 
-p.ten{
-    margin: 30px;
-    margin-bottom: 6px solid blue;
-    border-style: dashed;   
+h1.context{
+    margin : 0px;
+
 }
+
+p.head{
+    color : white;
+    margin : 0 0 0 15px;
+    font-size : small;
+    padding : 0 0 10px 0;
+}
+
+p.context{
+    font-weight: bold;
+}
+
+select a:link { 
+    color: black;
+    text-decoration: underline;
+}
+a:visited {
+     color: black; 
+     text-decoration: none;
+    }
+a:hover { 
+    color: blue; 
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+
+
+
+div.main{
+    width: 100%x;
+    height: 750px;
+    background-color: white;
+    position: relative;
+}
+div.footer{
+    position: relative;
+    width : 99%;
+    height: 70px;
+    background-color: lightgray;
+    font-weight: bold;
+    font-size : small;
+    padding : 10px 0 0 20px;
+    color : white;
+    
+}
+div.list{
+    position: absolute;    
+    width: 100px;
+    height: 100px;
+    }
+div.contain{
+    position: absolute;   
+    width: 100%-300px;
+    height: 100%;
+    left: 150px;
+    right: 200px;
+    }
+div.context{
+    position: absolute;    
+    width: 100%;
+}
+div.ad{
+    background-color: seagreen;
+    width : 180px;
+    height: 85%;
+    color : white;
+    font-weight: bold;
+    padding : 20px 5px 100px 5px;
+    position: absolute;
+    border-radius: 5px;
+    right: 0px;
+}
+div.side{
+    position : absolute;
+    top: 470px;
+    width:99.5%;
+    background-color: skyblue;
+    height: 100px;
+    color : white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding : 20px 5px 20px 5px;
+
+}
+
+
+
+
+li{
+    list-style-type: none;
+    background-color: #ececec;
+    border : 1px solid black;
+    border-radius: 3px;
+    width : 130px;
+    padding : 0 5px 0 5px;
+    margin: 0 0 3px 0;
+    text-decoration:none;
+    font-weight: bold;
+    height: 25px;
+    
+}
+
+.select{
+    background-color: green;
+}
+
+.para a{
+    text-decoration:none;
+}
+
+
+table{
+    position : absolute;
+    top: 230px;
+    border-collapse : collapse;
+    width:100%;
+
+}
+
+th, thd{
+    text-align : left;
+    padding : 8px;
+    vertical-align : middle;
+}
+
+tr:nth-child(even){
+    background-color : #f2f2f2;
+}
+
+th{
+    background-color: #4caf50;
+    color:white;
+}
+
+tr:hover{
+    background-color: yellow;
+}
+
